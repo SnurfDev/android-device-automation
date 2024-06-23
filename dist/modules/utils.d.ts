@@ -1,4 +1,4 @@
-import { DeviceConnection } from "../connection.js";
+import { DeviceConnection } from '../connection.js';
 export declare class Utils extends DeviceConnection {
     unlock(pin: string): Promise<void>;
     launchApp(appID: string): Promise<void>;

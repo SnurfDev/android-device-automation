@@ -1,4 +1,4 @@
-import { Device } from "./index.js";
+import { Device } from './index.js';
 export declare class DeviceConnection {
     serialNumber: string;
     device: Device | undefined;

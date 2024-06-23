@@ -17,5 +17,11 @@
         "prettier": "^3.3.2",
         "typescript": "^5.0.0"
     },
-    "keywords": ["android-device-automation","adb","android","automation","bot"]
+    "keywords": [
+        "android-device-automation",
+        "adb",
+        "android",
+        "automation",
+        "bot"
+    ]
 }

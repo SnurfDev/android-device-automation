@@ -1,10 +1,10 @@
-import { DeviceConnection } from "./connection.js";
-import { FileSystem } from "./modules/filesystem.js";
-import { PackageManager } from "./modules/packages.js";
-import { Input } from "./modules/input.js";
-import { Utils } from "./modules/utils.js";
-import { Info } from "./modules/info.js";
-export { KeyCode } from "./common/keycodes.js";
+import { DeviceConnection } from './connection.js';
+import { FileSystem } from './modules/filesystem.js';
+import { PackageManager } from './modules/packages.js';
+import { Input } from './modules/input.js';
+import { Utils } from './modules/utils.js';
+import { Info } from './modules/info.js';
+export { KeyCode } from './common/keycodes.js';
 export declare const adbPath: string;
 export type DeviceDescriptor = {
     serialNumber: string;

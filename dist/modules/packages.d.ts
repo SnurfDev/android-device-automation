@@ -1,4 +1,4 @@
-import { DeviceConnection } from "../connection.js";
+import { DeviceConnection } from '../connection.js';
 interface Package {
     id: string;
     apkPath: string;

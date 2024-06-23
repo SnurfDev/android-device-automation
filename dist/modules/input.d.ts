@@ -1,5 +1,5 @@
-import type { KeyCode } from "../common/keycodes.js";
-import { DeviceConnection } from "../connection.js";
+import type { KeyCode } from '../common/keycodes.js';
+import { DeviceConnection } from '../connection.js';
 export declare class Input extends DeviceConnection {
     sleep(ms: number): Promise<unknown>;
     text(str: string): Promise<void>;

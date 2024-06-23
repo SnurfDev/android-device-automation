@@ -14,11 +14,12 @@ export class DeviceConnection {
             let tmTimeout: Timer | null = null
             let cproc = exec(
                 `${adbPath} -s ${this.serialNumber} ${command}`,
+                { maxBuffer: Infinity },
                 (err, stdout) => {
                     if (tmTimeout) clearTimeout(tmTimeout)
                     if (err)
                         return rej(
-                            `Command "adb ${command}" failed with code ${err.code}`
+                            `Command "adb ${command}" failed: ${err.message}`
                         )
                     res(stdout)
                 }
