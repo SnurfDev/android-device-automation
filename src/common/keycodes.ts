@@ -1,5 +1,5 @@
 export enum KeyCode {
-    SOFT_LEFT=1,
+    SOFT_LEFT = 1,
     SOFT_RIGHT,
     HOME,
     BACK,
@@ -283,5 +283,5 @@ export enum KeyCode {
     SYSTEM_NAVIGATION_LEFT,
     SYSTEM_NAVIGATION_RIGHT,
     ALL_APPS,
-    REFRESH
+    REFRESH,
 }

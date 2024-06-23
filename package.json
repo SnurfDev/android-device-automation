@@ -1,16 +1,17 @@
 {
-  "name": "android-device-automation",
-  "description": "NodeJS Wrapper for the ADB command line tool",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "version": "0.1.0",
-  "scripts": {
-    "build": "tsc",
-    "bun": "bun src/test.ts"
-  },
-  "type": "module",
-  "devDependencies": {
-    "typescript": "^5.0.0"
-  }
+    "name": "android-device-automation",
+    "description": "NodeJS Wrapper for the ADB command line tool",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "version": "0.1.0",
+    "scripts": {
+        "format": "prettier . --write",
+        "build": "tsc"
+    },
+    "type": "module",
+    "devDependencies": {
+        "prettier": "^3.3.2",
+        "typescript": "^5.0.0"
+    }
 }
