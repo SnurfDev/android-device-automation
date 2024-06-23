@@ -4,6 +4,9 @@
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
+    "repository": {
+        "url": "https://github.com/SnurfDev/android-device-automation"
+    },
     "version": "0.1.0",
     "scripts": {
         "format": "prettier . --write",
