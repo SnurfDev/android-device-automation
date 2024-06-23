@@ -12,7 +12,7 @@ Alternatively you can install a portable version of the `adb` executable and spe
 
 ### Installing
 
-You can this package to your project by running
+You can add this package to your project by running
 
 ```bash
 npm install android-device-automation
