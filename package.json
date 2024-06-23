@@ -1,0 +1,16 @@
+{
+  "name": "android-device-automation",
+  "description": "NodeJS Wrapper for the ADB command line tool",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "bun": "bun src/test.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
